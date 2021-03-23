@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Whatc-a-mole</title>
+    <meta http-equiv="Content-Type" content="text/html; charset = utf-8"/>
+    <link rel = "stylesheet" type = "text/css" href = "style.css">
+    <script type = "text/javascript" src = "w-a-m.js"> </script>
+
+</head>
+
+<body>
+    <p style="text-align: center; font-size: 20pt; font-weight: bold;">Whatc-a-mole</p>
+    <p style="text-align: center; font-size: 15pt;">Test your skill. How many boxes(moles) can you check(hit) in 30 seconds?</p>
+
+    <form id = "info">
+        <button id = "status-button" type = "button">Start Game | Stop Game</button>
+        <div id = "GameStatus">
+            <label for = "GameStatus"></label>
+            <input id = "status-box" type="text" name = "GameStatus" disabled = "disabled" value=" ">
+        </div>
+        <div id = "time">
+            <label for  = "time">Time:</label>
+            <input id = "time-box" type = "text" name = "time" disabled = "disabled">
+        </div>
+        <div id = "score">
+            <label for = "score">Score:</label>
+            <input id = "score-box" type = "text" name = "score" disabled = "disabled">
+        </div>
+    </form>
+
+    <form id="mole-map">
+        <input type="radio" class="mole" name="mole">
+        <input type="radio" class="mole" name="mole">
+        <input type="radio" class="mole" name="mole">
+        <input type="radio" class="mole" name="mole">
+        <input type="radio" class="mole" name="mole">
+        <input type="radio" class="mole" name="mole">
+        <input type="radio" class="mole" name="mole">
+        <input type="radio" class="mole" name="mole">
+        <input type="radio" class="mole" name="mole">
+        <input type="radio" class="mole" name="mole">
+        <br />
+        <input type="radio" class="mole" name="mole">
+        <input type="radio" class="mole" name="mole">
+        <input type="radio" class="mole" name="mole">
+        <input type="radio" class="mole" name="mole">
+        <input type="radio" class="mole" name="mole">
+        <input type="radio" class="mole" name="mole">
+        <input type="radio" class="mole" name="mole">
+        <input type="radio" class="mole" name="mole">
+        <input type="radio" class="mole" name="mole">
+        <input type="radio" class="mole" name="mole">
+        <br />
+        <input type="radio" class="mole" name="mole">
+        <input type="radio" class="mole" name="mole">
+        <input type="radio" class="mole" name="mole">
+        <input type="radio" class="mole" name="mole">
+        <input type="radio" class="mole" name="mole">
+        <input type="radio" class="mole" name="mole">
+        <input type="radio" class="mole" name="mole">
+        <input type="radio" class="mole" name="mole">
+        <input type="radio" class="mole" name="mole">
+        <input type="radio" class="mole" name="mole">
+        <br />
+        <input type="radio" class="mole" name="mole">
+        <input type="radio" class="mole" name="mole">
+        <input type="radio" class="mole" name="mole">
+        <input type="radio" class="mole" name="mole">
+        <input type="radio" class="mole" name="mole">
+        <input type="radio" class="mole" name="mole">
+        <input type="radio" class="mole" name="mole">
+        <input type="radio" class="mole" name="mole">
+        <input type="radio" class="mole" name="mole">
+        <input type="radio" class="mole" name="mole">
+        <br />
+        <input type="radio" class="mole" name="mole">
+        <input type="radio" class="mole" name="mole">
+        <input type="radio" class="mole" name="mole">
+        <input type="radio" class="mole" name="mole">
+        <input type="radio" class="mole" name="mole">
+        <input type="radio" class="mole" name="mole">
+        <input type="radio" class="mole" name="mole">
+        <input type="radio" class="mole" name="mole">
+        <input type="radio" class="mole" name="mole">
+        <input type="radio" class="mole" name="mole">
+        <br />
+        <input type="radio" class="mole" name="mole">
+        <input type="radio" class="mole" name="mole">
+        <input type="radio" class="mole" name="mole">
+        <input type="radio" class="mole" name="mole">
+        <input type="radio" class="mole" name="mole">
+        <input type="radio" class="mole" name="mole">
+        <input type="radio" class="mole" name="mole">
+        <input type="radio" class="mole" name="mole">
+        <input type="radio" class="mole" name="mole">
+        <input type="radio" class="mole" name="mole">
+    </form>
+
+    <div id="hint">
+        <p>Instructions:</p>
+        <ol>
+            <li>Click on the radio buttons(moles) as they are selected randomly by the computer.</li>
+            <li>1 point per hit, minus 1 point per miss.</li>
+        </ol>
+</div>
+</body>

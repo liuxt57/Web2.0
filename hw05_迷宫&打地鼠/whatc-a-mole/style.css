@@ -1,0 +1,72 @@
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#info{
+    position: absolute;
+    left: 300px;
+    width: 500px;
+    height: 80px;
+}
+
+#status-button{
+    position: absolute;
+    left:0%;
+    width: 180px;
+    height: 40px;
+}
+#time{
+    position: absolute;
+    right: 0;
+    top: 0%;
+ 
+}
+
+#time-box{
+    text-align: center;
+    width: 180px;
+    height: 30px;  
+}
+
+#GameStatus{
+    position: absolute;
+    left: 0;
+    top: 45px;
+
+}
+
+#status-box{
+    text-align: center;
+    width: 178px;
+    height: 35px;
+}
+
+#score{
+    position: absolute;
+    right: 0;
+    bottom: 0%;
+}
+
+#score-box{
+    text-align: center;
+    width: 180px;
+    height: 30px;  
+}
+
+#mole-map{
+    position: absolute;
+    width: 240px;
+    height: 120px;
+    top: 280px;
+    left: 430px;
+    border-top: 1pt solid black;
+    border-bottom: 1pt solid black;
+}
+
+#hint{
+    position: absolute;
+    bottom: 0;
+    left: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15pt;
+}

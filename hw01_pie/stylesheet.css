@@ -1,0 +1,51 @@
+<style>
+   title{
+   color:#A4A400;
+   font-size:22pt; 
+   font-weight:bold;
+   }
+
+   div
+
+   h1{
+    color:#A4A400;
+    font-family:Century Gothic;
+    font-size:22pt; 
+    background:#F0F0F0; 
+    font-weight:bold;
+    
+   }
+
+   h2{
+    color:#A4A400;
+    font-family:Century Gothic;
+    font-size: 18pt; 
+    background:#F0F0F0; 
+    font-weight:normal;
+   }
+
+   ol{
+      font-family: Georgia; 
+      font-size: 11pt;
+      color: #404040;
+   }
+
+   ul{
+      font-family: Georgia; 
+      font-size: 11pt;
+      color: #404040;
+   }
+   
+   p{ 
+    font-family:Georgia;
+    font-size:11pt;
+    color: #404040;
+    background: #FFFFC8; 
+    font-style:italic;
+   }
+
+   a{
+    color:#A4A400;
+   }
+
+</style>

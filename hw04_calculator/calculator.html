@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>计算器</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="calculator.js"> </script> 
+  </head>
+
+  <body>
+      <table cellspacing="10" id="calculator" align="center">
+         
+          <tr>
+              <td colspan="5"><input class="display" id="nummessege" type="text" value="" readonly="readonly"></td>
+          </tr>
+          <tr>
+              <td><input id="1" class="numberKey" type="button" value="1" onclick="onclicknum(1)"></td>
+              <td><input id="2" class="numberKey" type="button" value="2" onclick="onclicknum(2)"></td>
+              <td><input id="3" class="numberKey" type="button" value="3" onclick="onclicknum(3)"></td>
+              <td><input id="add" class="numberKey" type="button" value="+" onclick="onclicknum('+')"></td>
+            
+          </tr>
+
+          <tr>
+              <td><input id="4" class="numberKey" type="button" value="4" onclick="onclicknum(4)"></td>
+              <td><input id="5" class="numberKey" type="button" value="5" onclick="onclicknum(5)"></td>
+              <td><input id="6" class="numberKey" type="button" value="6" onclick="onclicknum(6)"></td>
+              <td><input id="sub" class="numberKey" type="button" value="-" onclick="onclicknum('-')"></td>
+          </tr>
+
+          <tr>
+              <td><input id="7" class="numberKey" type="button" value="7" onclick="onclicknum(7)"></td>
+              <td><input id="8" class="numberKey" type="button" value="8" onclick="onclicknum(8)"></td>
+              <td><input id="9" class="numberKey" type="button" value="9" onclick="onclicknum(9)"></td>
+              <td><input id="mul" class="numberKey" type="button" value="*" onclick="onclicknum('*')"></td>
+          </tr>
+
+          <tr>
+              <td><input id="0" class="numberKey" type="button" value="0" onclick="onclicknum(0)"></td>
+              <td><input id="point" class="numberKey" type="button" value="." onclick="onclickdot()"></td>
+              <td><input id="back" class="numberKey" type="button" value="<-" onclick="onclickback()"></td>
+              <td><input id="division" class="numberKey" type="button" value="/" onclick="onclicknum('/')"></td>
+          </tr>
+        
+          <tr>
+              <td><input id="l" class="numberKey" type="button" value="(" onclick="onclicknum('(')"></td>
+              <td><input id="r" class="numberKey" type="button" value=")" onclick="onclicknum(')')"></td>
+              <td><input id="ce" class="numberKey" type="button" value="CE" onclick="onclickclear()" ></td>
+              <td><input id="eq" class="numberKey" type="button" value="=" onclick="onclickresult()"></td>
+          </tr>
+          
+
+      </table>
+
+  </body>

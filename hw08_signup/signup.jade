@@ -1,0 +1,53 @@
+doctype html 
+html 
+    head
+        title Sign Up
+        link(rel='stylesheet' href='style.css')
+        script(type='text/javascript' src='jquery.js')
+        //- <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js">
+        script(type='text/javascript' src='signup.js')
+        script(type='text/javascript' src='validator.js')
+        //- script(type='text/javascript').
+        //-   $(function(){
+        //-     $('input:not(.button)').blur(function(){
+        //-       if(validator.isFieldValid(this.id, $(this).val())){
+        //-       $(this).parent().find('.error').text('').hide();
+        //-       }
+        //-       else{
+        //-         $(this).parent().find('.error').text(validator.form[this.id].errorMessage).show();
+        //-       }
+        //-     });
+        //-     $('input.button.submit').click(function(){
+        //-       $('input:not(.button)').blur();
+        //-       if(!validator.isFormValid()) return false;
+        //-       //- alert('MLGCB!');
+        //-     });
+        //-   });
+    body 
+      h1 Sign Up
+      form(method='post')
+        if error 
+          div.error!=error 
+        div.username 
+          label(for='username') Username
+          input(type='field' id='username' name='username' value=user.username)
+          span.erro
+
+        div.sid 
+          label(for='sid') Student ID
+          input(type='field' id='sid' name='sid' value=user.sid)
+          span.error
+
+        div.phone 
+          label(for='phone') Phone
+          input(type='field' id='phone' name='phone' value=user.phone)
+          span.error
+
+        div.email 
+          label(for='email') Email
+          input(type='field' id='email' name='email' value=user.email)
+          span.error
+        
+        div.buttons 
+          input.button.reset(type="reset" value="Reset")
+          input.button.submit(type="submit" value="Submit")
